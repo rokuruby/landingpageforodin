@@ -51,3 +51,12 @@ a {
   width: 5%;
   height: auto;
 }
+
+.block1 {
+  display: flex;
+  align-items: center;
+}
+
+.herotext {
+  display: inline;
+}
