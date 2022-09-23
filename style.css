@@ -40,6 +40,7 @@ ul {
 .heroimage {
   width: 25%;
   height: auto;
+  /*to adjust the hero image properties*/
 }
 
 a {
@@ -58,4 +59,8 @@ a {
 
 .herotext {
   display: inline;
+}
+
+p {
+  inline-size: 500px; /*to adjust the hero subtext overflow*/
 }
