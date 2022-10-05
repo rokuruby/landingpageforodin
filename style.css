@@ -7,6 +7,7 @@ body {
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 10px;
+  min-height: 100vh;
 }
 
 
@@ -27,6 +28,7 @@ button {
 
 .footer {
   background: #eee;
+  margin-top: auto;
 }
 
 ul {
