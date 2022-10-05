@@ -69,3 +69,9 @@ a {
 p {
   inline-size: 500px; /*to adjust the hero subtext overflow*/
 }
+
+.mainherotext {
+  font-weight: bold;
+  font-size:xx-large;
+
+}
