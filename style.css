@@ -42,6 +42,7 @@ button {
   align-items: center;
   justify-content: center;
   align-content: center;
+  font-size: smaller;
   
 }
 
@@ -90,24 +91,9 @@ p {
   display: flex;
   justify-content: center;
   gap: 102px;
-  margin-top: auto;
-  flex-wrap: wrap;
+  padding: 80px ;
+flex-wrap: wrap;
 }
-
-.quote {
-  font-size: xx-large;
-  font-weight: bold;
-  padding-top: 100px;
-
-}
-
-.block3 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  
-}
-
 
 .info {
   max-width: 200px;
@@ -121,9 +107,38 @@ h2 {
 
 }
 
-.footertext {
-  scroll-padding-left: 200px;
-  justify-content: center;
+/*To Adjust the Quotation Block */
+.quote {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #E5E7EB;
   align-items: center;
+  justify-content: center;
   align-content: center;
 }
+
+.quote p {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Roboto', arial;
+  inline-size: auto; 
+}
+
+.quote b {
+  padding-bottom: 20px;
+  padding-left: 200px;
+  font-family: 'Roboto', arial;
+  text-align: right;
+}
+
+.signupbutton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+}
+/*To Adjust the Quotation BLock */
