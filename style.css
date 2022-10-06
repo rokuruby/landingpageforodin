@@ -75,3 +75,13 @@ p {
   font-size:xx-large;
 
 }
+
+.block2 {
+  display: flex;
+  justify-content: center;
+  gap: 102px;
+}
+
+.info {
+  max-width: 200px;
+}
