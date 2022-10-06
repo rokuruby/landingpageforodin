@@ -24,6 +24,15 @@ button {
   flex-wrap: wrap;
 }
 
+.block3 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 .footer {
   background: #eee;
   margin-top: auto;
@@ -59,7 +68,7 @@ a {
 }
 
 
-.block1 {
+.block1, {
  align-items: center;
  justify-content: center;
 
@@ -75,7 +84,6 @@ p {
 }
 
 
-
 .block2 {
   display: flex;
   justify-content: center;
@@ -84,14 +92,24 @@ p {
   flex-wrap: wrap;
 }
 
+.quote {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-top: 100px;
+
+}
+
+.block3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
 .info {
   max-width: 200px;
 }
-
-.block1.5 {
-
-}
-
 
 h2 {
   display: flex;
