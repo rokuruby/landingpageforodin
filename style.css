@@ -31,6 +31,8 @@ button {
   align-items: center;
   justify-content: center;
   align-content: center;
+  font-size: xx-large;
+  font-style: italic;
 }
 
 .footer {
@@ -68,7 +70,7 @@ a {
 }
 
 
-.block1, {
+.block1 {
  align-items: center;
  justify-content: center;
 
