@@ -1,21 +1,14 @@
+/*Overall Body Settings*/
 body {
   margin: 0;
   overflow: scroll;
   font-family: Roboto, sans-serif;
   padding-top: 10px;
   min-height: 100vh;
-
 }
+/*Overall Body Settings END */
 
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-  padding: 8px 16px;
-
-}
-
+/*To Adjust the Header & Logo BLock */
 .header, .block1 {
   display: flex;
   justify-content: space-between;
@@ -24,40 +17,12 @@ button {
   flex-wrap: wrap;
 }
 
-.block3 {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  font-size: xx-large;
-  font-style: italic;
-}
-
-.footer {
-  background: #eee;
-  margin-top: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  font-size: smaller;
-  
-}
-
 ul {
   display: flex;
   list-style: none;
   margin: 30px;
   padding: 0;
   gap: 16px
-}
-
-.heroimage {
-  width: 25%;
-  height: auto; /*to adjust the hero image properties*/
-  padding: 50px;
 }
 
 a {
@@ -69,12 +34,18 @@ a {
   max-block-size: 50px;
   margin-top: 20px;
 }
+/*To Adjust the Header & Logo BLock END*/
 
-
+/*To Adjust the Block 1/Hero text & Image BLock */
 .block1 {
  align-items: center;
  justify-content: center;
+}
 
+.heroimage {
+  width: 25%;
+  height: auto; /*to adjust the hero image properties*/
+  padding: 50px;
 }
 
 .herotext {
@@ -86,6 +57,23 @@ p {
   max-width: 500px;
 }
 
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+/*To Adjust the Block 1/Hero text & Image BLock END */
+
+
+/*To Adjust the Block 2/Content BLock */
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
 
 .block2 {
   display: flex;
@@ -98,14 +86,8 @@ flex-wrap: wrap;
 .info {
   max-width: 200px;
 }
+/*To Adjust the Block 2/Content BLock END*/
 
-h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-
-}
 
 /*To Adjust the Quotation Block */
 .quote {
@@ -141,4 +123,16 @@ h2 {
   align-content: center;
   padding: 50px;
 }
-/*To Adjust the Quotation BLock */
+/*To Adjust the Quotation BLock END */
+
+/*To Adjust the Footer BLock */
+.footer {
+  background: #eee;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: smaller;
+  }
+  /*To Adjust the Footer BLock END */
