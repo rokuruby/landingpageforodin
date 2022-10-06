@@ -67,27 +67,26 @@ button {
 /*To Adjust the Block 1/Hero text & Image BLock END */
 
 
-/*To Adjust the Block 2/Content BLock */
-h2 {
+/*To Adjust the Block 2 & 3/Content BLock */
+h2, h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
 
-.block2 {
+.block2, .block3 {
   display: flex;
   justify-content: center;
   gap: 102px;
-  padding: 80px ;
+  padding: 70px ;
 flex-wrap: wrap;
 }
 
 .info {
   max-width: 200px;
 }
-/*To Adjust the Block 2/Content BLock END*/
-
+/*To Adjust the Block 2 & 3/Content BLock END*/
 
 /*To Adjust the Quotation Block */
 .quote {
