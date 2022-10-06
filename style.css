@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: hidden;
+  overflow: scroll;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -80,8 +80,25 @@ p {
   display: flex;
   justify-content: center;
   gap: 102px;
+  margin-top: auto;
 }
 
 .info {
   max-width: 200px;
+}
+
+.block1.5 {
+  margin-left: 100px;
+  display: flex;
+}
+
+.benefittext {
+  font-weight: bold;
+  font-size:x-large;
+  display: flex;
+  margin-left: 40%;
+}
+
+div {
+  
 }
