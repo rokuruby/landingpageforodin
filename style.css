@@ -2,7 +2,6 @@ body {
   margin: 0;
   overflow: scroll;
   font-family: Roboto, sans-serif;
-
   padding-top: 10px;
   min-height: 100vh;
 
@@ -14,6 +13,7 @@ button {
   border-radius: 8px;
   background: #eee;
   padding: 8px 16px;
+
 }
 
 .header, .block1 {
@@ -45,6 +45,7 @@ ul {
 .heroimage {
   width: 25%;
   height: auto; /*to adjust the hero image properties*/
+  padding: 50px;
 }
 
 a {
@@ -53,13 +54,14 @@ a {
 }
 
 .logo {
-  width: 5%;
-  height: auto;
+  max-block-size: 50px;
   margin-top: 20px;
 }
 
+
 .block1 {
- max-width: 1000px;
+ align-items: center;
+ justify-content: center;
 
 }
 
