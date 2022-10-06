@@ -2,12 +2,7 @@ body {
   margin: 0;
   overflow: scroll;
   font-family: Roboto, sans-serif;
-  display: flex;
-  flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
-  scroll-padding-left: 200px;
-  scroll-padding-right: 200px;
+
   padding-top: 10px;
   min-height: 100vh;
 
@@ -62,9 +57,7 @@ a {
 }
 
 .block1 {
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
+  display: flex;
   margin-top: auto;
 
 }
@@ -74,14 +67,11 @@ a {
 }
 
 p {
-  inline-size: 500px; /*to adjust the hero subtext overflow*/
+  inline-size: auto; /*to adjust the hero subtext overflow*/
+  max-width: 500px;
 }
 
-.mainherotext {
-  font-weight: bold;
-  font-size:xx-large;
 
-}
 
 .block2 {
   display: flex;
