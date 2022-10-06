@@ -4,12 +4,14 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  scroll-padding-left: 200px;
+  scroll-padding-right: 200px;
   padding-top: 10px;
   min-height: 100vh;
-}
 
+}
 
 button {
   font-family: Roboto, sans-serif;
@@ -19,8 +21,7 @@ button {
   padding: 8px 16px;
 }
 
-.header,
-.footer, .block1 {
+.header, .block1 {
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -29,6 +30,11 @@ button {
 .footer {
   background: #eee;
   margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  
 }
 
 ul {
@@ -41,8 +47,7 @@ ul {
 
 .heroimage {
   width: 25%;
-  height: auto;
-  /*to adjust the hero image properties*/
+  height: auto; /*to adjust the hero image properties*/
 }
 
 a {
@@ -61,6 +66,7 @@ a {
   align-items: center;
   align-content: center;
   margin-top: auto;
+
 }
 
 .herotext {
@@ -89,17 +95,21 @@ p {
 }
 
 .block1.5 {
-  margin-left: 100px;
-  display: flex;
+
 }
 
-.benefittext {
-  font-weight: bold;
-  font-size:x-large;
+
+h2 {
   display: flex;
-  margin-left: 40%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
 }
 
 .footertext {
-  margin-left: 50%;
+  scroll-padding-left: 200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
