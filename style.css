@@ -134,6 +134,12 @@ h2, h3 {
   align-content: center;
   padding: 50px;
 }
+
+.quotebutton {
+  background: blue;
+  color: white;
+}
+
 /*To Adjust the Quotation BLock END */
 
 /* TO adjust block 4 about me */
