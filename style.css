@@ -50,6 +50,7 @@ a {
 
 .herotext {
   display: inline;
+  
 }
 
 p {
@@ -85,6 +86,8 @@ flex-wrap: wrap;
 
 .info {
   max-width: 200px;
+  text-align: center;
+
 }
 /*To Adjust the Block 2 ,3 & 4 /Content BLock END*/
 
@@ -97,6 +100,7 @@ flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   align-content: center;
+  
 }
 
 .quote p {
@@ -123,6 +127,19 @@ flex-wrap: wrap;
   padding: 50px;
 }
 /*To Adjust the Quotation BLock END */
+
+/* TO adjust block 4 about me */
+
+.aboutme {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* TO adjust block 4 about me END*/
 
 /*To Adjust the Footer BLock */
 .footer {
