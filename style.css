@@ -81,10 +81,10 @@ h2, h3 {
   justify-content: center;
   gap: 102px;
   padding: 70px ;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.info {
+.info, .aboutpic {
   max-width: 200px;
   text-align: center;
 
@@ -137,6 +137,15 @@ flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+
+.aboutpic {
+  padding: 30px;
+}
+
+.abouttitle {
+  font-weight:bolder ;
+  font-size: x-large;
 }
 
 /* TO adjust block 4 about me END*/
