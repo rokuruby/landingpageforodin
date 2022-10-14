@@ -67,7 +67,7 @@ button {
 /*To Adjust the Block 1/Hero text & Image BLock END */
 
 
-/*To Adjust the Block 2 & 3/Content BLock */
+/*To Adjust the Block 2, 3 & 4 /Content BLock */
 h2, h3 {
   display: flex;
   align-items: center;
@@ -75,7 +75,7 @@ h2, h3 {
   align-content: center;
 }
 
-.block2, .block3 {
+.block2, .block3, .block4 {
   display: flex;
   justify-content: center;
   gap: 102px;
@@ -86,7 +86,7 @@ flex-wrap: wrap;
 .info {
   max-width: 200px;
 }
-/*To Adjust the Block 2 & 3/Content BLock END*/
+/*To Adjust the Block 2 ,3 & 4 /Content BLock END*/
 
 /*To Adjust the Quotation Block */
 .quote {
