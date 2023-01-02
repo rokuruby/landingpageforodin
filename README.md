@@ -15,5 +15,3 @@ The content blocks display information about Lee Tiong Heng's professional skill
 The page's CSS code is used to style and layout the page's elements, including the header, hero section, content blocks, and footer. It specifies the font, colors, margins, padding, and other design details.
 
 Overall, this landing page provides a simple, clean way for visitors to learn about Lee Tiong Heng and access his professional information.
-
-Thank you for visiting the page!
