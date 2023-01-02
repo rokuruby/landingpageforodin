@@ -1,6 +1,6 @@
 <h1>Lee Tiong Heng's Landing Page</h1>
 
-Welcome to Lee Tiong Heng's Landing Page! This page was coded from scratch using HTML and CSS as a learning project. No website builders were used. The purpose of this landing page is to practise my web development skills based on what I learned from the Odin Project's web development course.
+This page was coded from scratch using HTML and CSS as a learning project. No website builders were used. The purpose of this landing page is to practise my web development skills based on what I learned from the Odin Project's web development course.
 
 On this page, you can find links to Lee Tiong Heng's email, LinkedIn, GitHub, writing portfolio, and resume. There is also a button to subscribe to Lee Tiong Heng's mailing list.
 
